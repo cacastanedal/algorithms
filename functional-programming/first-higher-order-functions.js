@@ -1,8 +1,8 @@
-function executeFunction(f){
+function executeFunction(f){ // higher order function
     f();
 }
 
-function printWolrd(){
+function printWolrd(){ // first class function
     console.log("First-class function");
 }
 
